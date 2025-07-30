@@ -1,0 +1,9 @@
+editors:
+  - name: 'Ocenaudio'
+    path: 'C:\Users\chkmt\AppData\Local\ocenaudio\ocenaudio.exe'
+  - name: 'Tenacity'
+    path: 'C:\Program Files\Tenacity\Tenacity.exe'
+  - name: 'Melodyne'
+    path: 'C:\Program Files\Celemony\Melodyne 5\Melodyne.exe'
+  - name: 'RX 11'
+    path: 'C:\Program Files\iZotope\RX 11 Audio Editor\win64\iZotope RX 11 Audio Editor.exe'

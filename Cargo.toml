@@ -1,0 +1,12 @@
+[package]
+name = "ChooseEditor"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.32.0"
+egui = "0.32.0"
+file_icon_provider = "0.4.0"
+image = "0.25.6"
+winapi = { version = "0.3", features = ["winuser", "windef"] }
+yaml-rust2 = "0.10.3"
