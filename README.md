@@ -8,7 +8,7 @@ The code might be clunky.
 # usage
 [Download here](https://github.com/jxqu3/editorchoosr/releases/tag/1.0)  
 Set it as your programs external editor of choice, customize the config.yaml to your liking, and done!
-To select an editor, click on itsx button, or press the number stated in its name!
+To select an editor, click on its button, or press the number stated in its name!
 
 
 # configuration
