@@ -83,23 +83,17 @@ impl eframe::App for EditorSelectorApp {
                         let sized_image = egui::load::SizedTexture::new(editor.icon_handle.id(), egui::vec2(ICON_SIZE as f32, ICON_SIZE as f32));
                         let image = egui::Image::from_texture(sized_image);
                         ui.add(image);
-                        let mut minimize = false;
                         if ui.button(&editor.name).clicked() {
                             // Open editor.
                             self.should_run = id as i32;
-                            minimize = true;
                         }
                         ctx.input(|i| {
                             let key_name =format!("{}", id+1);
                             if i.key_pressed( egui::Key::from_name(&key_name).unwrap_or(Key::Insert)) {
                                 println!("Pressed {}", key_name);
                                 self.should_run = id as i32;
-                                minimize = true;
                             }
                         });
-                        if minimize {
-                            ctx.send_viewport_cmd(egui::ViewportCommand::Minimized(true));
-                        }
                     });
                 }
             });
